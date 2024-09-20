@@ -114,7 +114,7 @@
   .project p {
     font-size: 16px;                 
     color: #555;                   
-    margin-bottom: 15px;            /
+    margin-bottom: 15px;            
   }
   
   .project a {
@@ -146,26 +146,26 @@
   .curiosidades-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distribui as três primeiras imagens */
+    justify-content: space-between; 
   }
   
   .curiosidade {
-    width: 30%; /* Cada curiosidade ocupa 30% da largura */
+    width: 30%; 
     margin-bottom: 30px;
-    text-align: center; /* Alinha o conteúdo dentro do bloco */
+    text-align: center; 
   }
   
   .curiosidade:nth-child(4),
   .curiosidade:nth-child(5) {
-    width: 40%; /* Faz as duas últimas curiosidades maiores para centralizá-las */
+    width: 40%; 
   }
   
   .curiosidade img {
-    width: 100%; /* A imagem ocupa toda a largura do bloco */
+    width: 100%; 
     height: auto;
-    max-width: 300px; /* Define uma largura máxima para manter um tamanho padrão */
-    height: 200px; /* Define uma altura fixa para todas as imagens */
-    object-fit: cover; /* Garante que a imagem se ajuste ao tamanho sem distorção */
+    max-width: 300px;
+    height: 200px; 
+    object-fit: cover;
     margin-bottom: 10px;
   }
   
@@ -183,7 +183,7 @@
   
   @media (max-width: 1024px) {
     .curiosidade {
-      width: 45%; /* Em telas médias, ajusta para 45% */
+      width: 45%;
     }
   
     .curiosidade:nth-child(4),
@@ -194,12 +194,12 @@
   
   @media (max-width: 768px) {
     .curiosidade {
-      width: 100%; /* Em telas pequenas, cada curiosidade ocupa 100% da largura */
+      width: 100%; 
     }
   }
   .contato {
-    background-color: #333; /* Cor de fundo do footer */
-    color: white; /* Cor do texto */
+    background-color: #333; 
+    color: white;
     padding: 40px 20px;
     text-align: center;
   }
@@ -220,22 +220,22 @@
     text-decoration: none;
     font-size: 18px;
     display: flex;
-    align-items: center; /* Alinha o texto com o ícone */
-    gap: 10px; /* Espaçamento entre ícone e texto */
+    align-items: center; 
+    gap: 10px; 
   }
   
   .links-contato a img {
-    width: 24px; /* Tamanho dos ícones */
+    width: 24px;
     height: 24px;
   }
   
   .links-contato a:hover {
-    color: #007bff; /* Muda a cor do texto ao passar o mouse */
+    color: #007bff; 
   }
   
   @media (max-width: 768px) {
     .links-contato {
-      flex-direction: column; /* Em telas pequenas, os links ficam empilhados */
+      flex-direction: column; 
       gap: 20px;
     }
   }
