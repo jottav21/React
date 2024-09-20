@@ -188,7 +188,7 @@
   
     .curiosidade:nth-child(4),
     .curiosidade:nth-child(5) {
-      width: 45%; /* As duas últimas ocupam 45% também para centralizar */
+      width: 45%; 
     }
   }
   
@@ -211,8 +211,8 @@
   
   .links-contato {
     display: flex;
-    justify-content: center; /* Centraliza os links */
-    gap: 30px; /* Espaçamento entre os links */
+    justify-content: center;
+    gap: 30px; 
   }
   
   .links-contato a {
