@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    max-width: 1200px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto;    /* Centraliza horizontalmente */
+  }
+  
+  .header h3 {
+    margin: 0;
+  }
+  
+  .header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
+  
